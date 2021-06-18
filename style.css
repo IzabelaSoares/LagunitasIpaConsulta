@@ -1,17 +1,25 @@
 body{
-    font-family: 'Arial', sans-serif;
+    max-width: 350px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;700&display=swap');
   }
   h1{
     font-size: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;700&display=swap');
   }
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
+  img{
+    position: absolute;
+    top: 15px;
+    left: 250px;
+  }
+  input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     display: none;
     text-align: center;
   }
   .entrada{
-    padding-bottom: 15px;
     border-bottom: 1px solid rgb(106, 112, 105); /*ALT + CTRL + C = CHOOSE THE COLOR*/
+    padding-bottom: 20px;
   }
   #saida{
     margin-top: 10px;
