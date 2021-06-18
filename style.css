@@ -1,0 +1,19 @@
+body{
+    font-family: 'Arial', sans-serif;
+  }
+  h1{
+    font-size: 20px;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    display: none;
+    text-align: center;
+  }
+  .entrada{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(106, 112, 105); /*ALT + CTRL + C = CHOOSE THE COLOR*/
+  }
+  #saida{
+    margin-top: 10px;
+    text-align: center;
+  }
